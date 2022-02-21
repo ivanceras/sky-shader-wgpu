@@ -7,8 +7,6 @@ license = "MIT OR Apache-2.0"
 publish = false
 resolver = "2"
 
-[lib]
-crate-type = ["lib", "cdylib"]
 
 # See rustc_codegen_spirv/Cargo.toml for details on these features
 [features]

@@ -119,8 +119,7 @@ fn maybe_watch(
     wgpu::include_spirv_raw!(env!("sky_shader.spv"));
 }
 
-#[cfg_attr(target_os = "android", ndk_glue::main(backtrace = "on"))]
-pub fn main() {
+fn main() {
     env_logger::init();
 
     graphics::start();
